@@ -25,19 +25,13 @@ a.active {
     color: orange;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
+hr.star-light,hr.star-primary {
     margin: 25px auto 30px;
     padding: 0;
     max-width: 250px;
@@ -46,8 +40,7 @@ hr.star-primary {
     text-align: center;
 }
 
-hr.star-light:after,
-hr.star-primary:after {
+hr.star-light:after,hr.star-primary:after {
     content: "\f005";
     display: inline-block;
     position: relative;
@@ -78,9 +71,6 @@ hr.star-primary:after {
 .img-centered {
     margin: 0 auto;
 }
-
-
-
 
 header {
     text-align: center;
@@ -154,10 +144,15 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+	background-color: #ffffff;
+    border-radius: 0;
+    max-height: 49px;
+    border-color: #e2e1e1;
 }
 
 .navbar a:focus {
     outline: 0;
+	background-color: transparent;
 }
 
 .navbar .navbar-nav {
@@ -168,8 +163,7 @@ header .intro-text .skills {
     outline: 0;
 }
 
-.navbar-default,
-.navbar-inverse {
+.navbar-default,.navbar-inverse {
     border: 0;
 }
 
@@ -253,8 +247,7 @@ section.success {
         margin: 0 0 30px;
     }
 }
-.submitbtn{
-	
+.submitbtn{	
 	color:white;
 	border:none;
 	background:orange;
@@ -268,25 +261,17 @@ section.success {
 	border-radius:10%;
 	border:none;
 }
-.submitbtn:hover{
-	
-	
-	background:orangered;
-	
+.submitbtn:hover{	
+	background:orangered;	
 }
-.resetbtn:hover{
-	
-	
-	background:orangered;
-	
+.resetbtn:hover{	
+	background:orangered;	
 }
-.resetbtn{
-	
+.resetbtn{	
 	color:white;
 	background:orange;
 	position:absolute;
-	right:20%;
-	
+	right:20%;	
 }
 .btn-success {
   color: #ffffff;
@@ -299,11 +284,8 @@ section.success {
 	position:absolute;
 	right:0%;
 }
-.btnright:hover{
-	
-	
-	background:orangered;
-	
+.btnright:hover{	
+	background:orangered;	
 }
 .btnleft{
 	color:white;
@@ -311,11 +293,8 @@ section.success {
 	position:absolute;
 	left:0%;
 }
-.btnleft:hover{
-	
-	
-	background:orangered;
-	
+.btnleft:hover{	
+	background:orangered;	
 }
 .btn-success:hover
 .btn-success:focus,
@@ -336,10 +315,7 @@ section.success {
     transition: all .3s ease-in-out;
 }
 
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active {
+.btn-outline:hover,.btn-outline:focus,.btn-outline:active,.btn-outline.active {
     border: solid 2px #fff;
     color: orange;
     background: #fff;
@@ -352,8 +328,7 @@ section.success {
     border-bottom: 1px solid #eee;
 }
 
-.floating-label-form-group input,
-.floating-label-form-group textarea {
+.floating-label-form-group input,.floating-label-form-group textarea {
     z-index: 1;
     position: relative;
     padding-right: 0;
@@ -434,9 +409,7 @@ footer .footer-below {
     line-height: 45px;
 }
 
-.btn:focus,
-.btn:active,
-.btn.active {
+.btn:focus,.btn:active,.btn.active {
     outline: 0;
 }
 
